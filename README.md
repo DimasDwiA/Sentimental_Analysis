@@ -40,14 +40,11 @@ Here are some steps in building sentimental analysis with **`lexicon-based appro
    
 2. **Case Folding and Tokenization**:
    - Using **lowercasing** to convert all text to lowercase and tokenization with word_tokenize() to split the text into individual words.
-
-3. **Text Cleaning**:
-   - Uses **regular expressions (regex)** to remove URLs, numbers, special characters, mentions (@), hashtags (#), and unnecessary text.
    
-4. **Text Normalization**:
+3. **Text Normalization**:
    - Uses idiom dictionary and abbreviation dictionary to replace nonstandard words with more common forms.
 
-5. **Lemmatization**:
+4. **Lemmatization**:
    - Using WordNet Lemmatizer to return words to their base form based on word category (POS tagging).
 
 ## Sentiment scoring 
